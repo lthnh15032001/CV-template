@@ -1,0 +1,36 @@
+/* -----------------------------------------------------------------------------
+	Jestem v1.00  - GREEN COLOR 
+------------------------------------------------------------------------------- */
+
+	.text-primary, 
+	a:hover, a:focus,
+	.nav-caption > span,
+	.tweet_list > li:before {
+		color: #7bc82f;
+	}
+
+	.pace,
+	.btn-primary, .btn-primary:hover, .btn-primary:focus,
+	.btn-default:hover, .btn-default:focus,
+	.icon-primary,
+	.form-control:focus,
+	.btn-black.active,
+	.nav-pills > li > a:hover, .nav-pills > li > a:focus, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus,
+	.resume-box:hover .title-bar-hover {
+		border-color: #7bc82f;
+	}
+
+	.bg-primary,
+	.pace .pace-progress,
+	.btn-primary:hover, .btn-primary:focus,
+	.label-primary,
+	.te-primary:before,
+	.progress-bar-primary,
+	.icon-primary.icon-filled,
+	.btn-black.active:hover, 
+	.sep,
+	.owl-theme .owl-controls .owl-page.active span,
+	.owl-theme .owl-controls.clickable .owl-page:hover span,
+	.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+		background-color: #7bc82f;
+	}

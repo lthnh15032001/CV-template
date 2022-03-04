@@ -1,0 +1,114 @@
+/* Styleswitcher - box */
+
+#style-switcher {
+	position: fixed;
+	top: 0;
+	right: -175px;
+	width: 175px;
+	margin-top: 160px;
+	z-index: 2200;
+	color: #333;
+	background: #fff;
+	-webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.1);
+	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+/* Styleswitcher - trigger */
+
+#style-switcher .ss-toggle {
+	position: absolute;
+	top: 0;
+	left: -36px;
+	width: 36px;
+	height: 66px;
+	display:block;
+	color: rgb(255,255,255);
+	text-align: center;
+	cursor: pointer;
+	-webkit-border-top-left-radius: 2px;
+	-webkit-border-bottom-left-radius: 2px;
+	-moz-border-radius-topleft: 2px;
+	-moz-border-radius-bottomleft: 2px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+
+#style-switcher .ss-toggle:hover,
+#style-switcher .ss-toggle:focus {
+}
+
+#style-switcher .ss-toggle i {
+	margin-top: 26px;
+	font-size: 12px;
+}
+
+/* Styleswitcher - options */
+
+#style-switcher ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#style-switcher .ss-label {
+	display: block;
+	font-weight: 600;
+	font-size: 10px;
+	text-transform: uppercase;
+	padding: 12px;
+	border-bottom: 1px solid #e7e7e7;
+	font-family: 'Raleway';
+}
+
+/* Styleswitcher - colors */
+
+#style-switcher ul.color-switcher {
+	margin: 12px;
+}
+
+.color-switcher li {
+	float: left;
+}
+
+.color-switcher a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	text-align: center;
+	color: rgb(255,255,255);
+}
+
+.color-switcher a:hover:before, 
+.color-switcher a.active:hover:before,
+.color-switcher .active:before {
+	position: relative;
+	top: 5px;
+	font-family: "FontAwesome";
+	font-weight: 100;
+	font-size: 10px;
+}
+
+.color-switcher a:hover:before{
+	content: '\f067';
+}
+
+.color-switcher a.active:hover:before {
+	content: "\f00c";
+}
+
+.color-switcher .active:before {
+	content:  "\f00c";
+}
+
+.color-switcher .blue { background-color: #55b9f2; }
+.color-switcher .green { background-color: #7cc831; }
+.color-switcher .red { background-color: #e75e5e; }
+.color-switcher .yellow { background-color: #f0dc34; }
+.color-switcher .orange { background-color: #f19736; }
+.color-switcher .violet { background-color: #be6de3; }
+
